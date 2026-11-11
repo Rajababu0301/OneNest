@@ -1,0 +1,37 @@
+
+# Java / Maven
+*.class
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+*.pem
+*.key
+
+# Node.js
+node_modules/
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+logs/
+
+# Operating system
+.DS_Store
+Thumbs.db
+# Local Postman settings
+.postman/

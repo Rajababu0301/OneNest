@@ -1,0 +1,14 @@
+### Register Student
+
+POST http://localhost:8080/api/students/register
+Content-Type: application/json
+
+{
+  "fullName": "Adarsh Raj",
+  "email": "adarsh@example.com",
+  "phone": "9876543210",
+  "rollNumber": "22CSE101",
+  "hostelBlock": "A",
+  "roomNumber": "A-203",
+  "password": "test123"
+}
